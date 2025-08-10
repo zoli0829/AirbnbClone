@@ -59,7 +59,6 @@ struct ListingItemView: View {
             }
             .font(.footnote)
         }
-        // keep the padding in the child view
         .padding()
     }
 }
