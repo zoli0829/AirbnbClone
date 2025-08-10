@@ -9,12 +9,6 @@ import MapKit
 import SwiftUI
 
 struct ListingDetailView: View {
-    var images = [
-        "listing-1",
-        "listing-2",
-        "listing-3",
-        "listing-4"
-    ]
     
     @Environment(\.dismiss) var dismiss
     
@@ -35,8 +29,9 @@ struct ListingDetailView: View {
                                 .frame(width: 32, height: 32)
                         }
                         .padding(32) // need to place it here on the label otherwise the butten wouldn't be clickable
+                    // TODO: Area below the button is clickable, the button is not
                 }
-
+                // attaching the padding here also does not work
             }
             
             VStack(alignment: .leading, spacing: 8) {
@@ -178,6 +173,7 @@ struct ListingDetailView: View {
             }
             .padding()
         }
+        .toolbar(.hidden, for: .tabBar)
         .ignoresSafeArea()
         .padding(.bottom, 64)
         .overlay(alignment: .bottom) {
