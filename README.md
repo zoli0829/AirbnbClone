@@ -3,7 +3,7 @@
 A simple Airbnb-inspired iOS app built with **SwiftUI**, **Maps**, and **CoreLocation**.  
 This project uses **dummy data** to showcase property listings, location-based search, and map integration.
 
-<img src="images/exploreView.png" alt="Weather App Screenshot"/>
+<img src="images/exploreView.png" alt="Weather App Screenshot" width=400/>
 
 ---
 
@@ -15,7 +15,7 @@ This project uses **dummy data** to showcase property listings, location-based s
 - **Search Functionality** — Filter listings by location or name.
 - **Responsive UI** — Adaptive layout for iPhone and iPad using SwiftUI.
 
-<img src="images/listingDetailView.png" alt="Weather App Screenshot"/>
+<img src="images/listingDetailView.png" alt="Weather App Screenshot" width=400/>
 ---
 
 ## Tech Stack
@@ -25,5 +25,5 @@ This project uses **dummy data** to showcase property listings, location-based s
 - **CoreLocation** — Access device location data.
 - **Dummy Data** — Static JSON or Swift structs to simulate API data.
 
-<img src="images/searchView.png" alt="Weather App Screenshot"/>
+<img src="images/searchView.png" alt="Weather App Screenshot" width=400/>
 
