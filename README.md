@@ -15,7 +15,7 @@ This project uses **dummy data** to showcase property listings, location-based s
 - **Search Functionality** — Filter listings by location or name.
 - **Responsive UI** — Adaptive layout for iPhone and iPad using SwiftUI.
 
-<img src="images/listingDetailView.png" alt="Weather App Screenshot" width=400/>
+<img src="images/detailView.png" alt="Weather App Screenshot" width=400/>
 ---
 
 ## Tech Stack
